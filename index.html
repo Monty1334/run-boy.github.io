@@ -59,9 +59,7 @@
 
 <body>
   <div class="bg">
-      <audio src="Download Cadmium Melody Ft Jon Becker 2019 Best English Ringtone.mp3" controls autoplay loop width="2" height="0">
-            
-         </audio>
+      <audio src="Download Cadmium Melody Ft Jon Becker 2019 Best English Ringtone.mp3" id="audio" loop="loop">  </audio>  
         <div class="by"> 
             <marquee direction="right">
              <img src="dog3.gif" class="bg-dog" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -70,6 +68,10 @@
  
         </div>
 </div>    
-    
+    <script>
+        window.onclick= function(){
+            document.getElementById("audio").play();
+        }
+    </script>
 </body>
 </html>
